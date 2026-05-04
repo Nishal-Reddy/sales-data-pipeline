@@ -11,6 +11,16 @@ This project simulates a real-world data engineering workflow by building an ETL
 * SQLAlchemy
 * SQL
 
+## Data sets
+Download data from kaggle(https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+save the data with below structure within sales-data-pipeline repo
+data
+  |
+  |->raw
+  |->processed
+Store the downloaded data sets under raw. You need not to save any data under processed. Create a folder so that the pipeline saves the processed data over there
+
+
 ## 🔄 Pipeline Steps
 
 1. Extract raw CSV data
