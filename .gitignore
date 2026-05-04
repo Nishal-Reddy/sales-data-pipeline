@@ -1,0 +1,16 @@
+# Ignore data files
+data/raw/
+data/processed/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+
+# OS files
+.DS_Store
+
+# Secrets
+.env
